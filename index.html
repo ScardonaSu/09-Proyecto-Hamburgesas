@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grill</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h2>El Santo Sabroso</h2>
+    </header>
+
+    
+   
+
+
+    <div class="container">
+        <div class="row mt-5 selectors" >
+            <div class="col-lg-6 col-md-6">
+
+                <select id="selectLanguages" class="form-select" aria-label="Default select example" onchange="changeText()">
+                    <option>Languages</option>
+                    <option value="es">Spanish</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <div class="col-lg-6 col-md-6 icon">
+                 <i id="toggleDark" class="bi bi-brightness-high"></i>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12 col-md-6 col-lg-3">
+
+
+                <div class="card">
+                    <img class="card-img-top" src="img/hamburguesa-1.webp" alt="">
+                    <div class="card-body">
+                        <p class="precio" id="precio-1">$18.900</p>
+                        <h5 class="card-title" id="title-1">BBQ Crunch</h5>
+                        <p class="card-text" id="descripcion-1">Sandwich BBQ Crunch (1 Fillete pollo apanado) </p>
+                        <a href="#" class="btn btn-warning w-100">Buy This!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/hamburguesa-2.webp" alt="">
+                    <div class="card-body">
+                        <p class="precio" id="precio-2">$8.900</p>
+                        <h5 class="card-title" id="title-2">BBQ Crunch</h5>
+                        <p class="card-text" id="descripcion-2">1 Sandwich BBQ Crunch (1 Fillete pollo apanado)</p>
+                        <a href="#" class="btn btn-warning w-100">Buy This!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/hamburguesa-3.webp" alt="">
+                    <div class="card-body">
+                        <p class="precio" id="title-3">$15.900</p>
+                        <h5 class="card-title" id="title-3">Kentucky Sandwich</h5>
+                        <p class="card-text" id="descripcion-3">1 Kentucky hamburguesa / Sandwich (1 Filete de pechuga de pollo apanado, pepinillos...)</p>
+                        <a href="#" class="btn btn-warning w-100">Buy This!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/hamburguesa-4.webp" alt="">
+                    <div class="card-body">
+                        <p class="precio" id="title-4">$15.900</p>
+                        <h5 class="card-title" id="title-4">Combo BBQ Crunch</h5>
+                        <p class="card-text" id="descripcion-4">1 Sanwich BBQ Crunch (1 Filete de pollo apanado) + 1 Papas</p>
+                        <a href="#" class="btn btn-warning w-100">Buy This!</a>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="row mt-4 mb-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/hamburguesa-5.webp" alt="">
+                    <div class="card-body">
+                        <p class="precio" id="precio-5"">$16.900</p>
+                        <h5 class="card-title" id="title-5">Kentucky Coronel Sandwich</h5>
+                        <p class="card-text" id="descripcion-5">1 Sanwich BBQ Crunch (1 Filete de pollo apanado) + 1 Papas</p>
+                        <a href="#" class="btn btn-warning w-100">Buy This!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/hamburguesa-6.webp" alt="">
+                    <div class="card-body">
+                        <p class="precio" id="precio-6"">$21.900</p>
+                        <h5 class="card-title" id="title-6">Combo Kentucky Sandwich</h5>
+                        <p class="card-text" id="descripcion-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-warning w-100">Buy This!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/hamburguesa-7.webp" alt="">
+                    <div class="card-body">
+                        <p class="precio" id="precio-7"">$23.900</p>
+                        <h5 class="card-title" id="title-7">BBQ Crunch</h5>
+                        <p class="card-text" id="descripcion-7">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-warning w-100">Buy This!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/hamburguesa-8.webp" alt="">
+                    <div class="card-body">
+                        <p class="precio" id="precio-8"">$29.900</p>
+                        <h5 class="card-title" id="title-8">BBQ Crunch</h5>
+                        <p class="card-text" id="descripcion-8">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-warning w-100">Buy This!</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <footer id="footer">
+        <h2>Santo Cardona &copy;</h2>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
